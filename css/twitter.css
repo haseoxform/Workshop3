@@ -1,0 +1,87 @@
+body {
+padding-top: 80px;
+}
+
+.twitter-search {
+width: 150px !important;
+}
+
+.twitter-comment{
+  width: 450px !important;
+}
+
+.icon-flipped {
+transform: scaleX(-1);
+-moz-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+-ms-transform: scaleX(-1);
+}
+
+.pic-pad a {
+  padding: 3px;
+}
+
+.navbar button {
+background-color: transparent;
+border: none;
+color: #666a6b;
+}
+
+.nvbt{
+  border: 1px solid rgb(204, 204, 204);
+  background: white;
+  
+}
+
+.navbar form button,
+.navbar form button:hover,
+.navbar form button:focus,
+.navbar form button:active,
+.navbar form button:active:focus {
+background-color: white;
+color: black;
+/* Make it a bit wider. */
+width: 70px;
+/* Make the border's curve more gentle */
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+/* Apply a light-grey border color. You can specify colors as names, rgb
+triplets, or hex numbers. */
+border-top: 1px solid rgb(204, 204, 204);
+border-bottom: 1px solid rgb(204, 204, 204);
+border-right: 1px solid rgb(204, 204, 204);
+/* Removes halo and shadow on button when clicked. */
+outline: none;
+box-shadow: none;
+border-radius: 99px;
+}
+
+.circle{
+  border-radius: 30px;
+}
+
+.navbar .navbar-right > .btn-toolbar > .btn-group:first-child button:hover,
+.navbar .navbar-right > .btn-toolbar > .btn-group:nth-child(2) button:hover
+{
+background-color: #2e467c;
+}
+
+.border-remove {
+background-color: transparent;
+border: none;
+color: #137e93;
+}
+
+.padder1{
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
+.padder2{
+  padding-top: 10px;
+}
+
+.padder3{
+  padding-top: 18px;
+  padding-left: 10px;
+}
